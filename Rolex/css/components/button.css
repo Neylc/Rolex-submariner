@@ -1,9 +1,23 @@
 .btn-vert {
-    background-color: #12784A;
+    background-color: transparent;
     text-align: center;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 24px;
     text-decoration: none;
-    color: white;
-    border-radius: 4px;
+    color: #106b42;
+    border: 1.5px solid #106b42;
+    border-radius: 2px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-vert:hover {
+    background-color: #106b42;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 107, 66, 0.25);
 }
